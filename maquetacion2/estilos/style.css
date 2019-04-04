@@ -1,0 +1,105 @@
+:root{
+    --color-verde:#07E138;
+    --color-rojo:#E71C1C;
+    --color-azul:#1C63E7;
+}
+*,::before,::after{
+    box-sizing: border-box;
+    color: var(--color-verde);
+    font-size: 1.1em;
+}
+.main{
+    width: 1000px;
+    height: 993px;
+    border: 1em solid var(--color-rojo);
+    margin: 0.5em auto;
+    position: relative;
+}
+.nav{
+    width:99.3%;
+    height:100px;
+    border: 0.5em solid var(--color-azul);
+    position: absolute;
+    top: 0;
+    margin-top: 0.2em;
+    margin: 0 0.2em 0.2em 0.2em; 
+    /***/
+    text-align: center;
+}
+.header{
+    width: 99.3%;
+    height: 300px;
+    border: 0.5em solid var(--color-azul);
+    position: absolute;
+    top: 100px;
+    margin-top: 0.3em; 
+    margin: 0 0.2em 0.2em 0.2em; 
+    /***/
+    text-align: center;
+}
+.content{
+    width: 99.3%;
+    height: 500px;
+    border: 0.5em solid var(--color-azul);
+    position: absolute;
+    top: 400px;
+    margin-top: 0.4em;
+    margin: 0 0.2em 0.2em 0.2em; 
+    /***/
+    text-align: center;
+}
+.footer{
+    width: 99.3%;
+    height: 50px;
+    border: 0.5em solid var(--color-azul);
+    position: absolute;
+    top: 900px;
+    margin-top: 0.5em;
+    margin: 0 0.2em 0.2em 0.2em; 
+    /***/
+    text-align: center;
+}
+/*contenido nav*/
+.box{
+    width: 20%;
+    height: 100%;
+    border: 0.5em solid var(--color-verde);
+    float: left;
+}
+/*contneido header*/
+.banner{
+    width: 70%;
+    height: 100%;
+    border: 0.5em solid var(--color-verde);
+    float: left; 
+    /* position: absolute;
+    left: 0; */
+}
+.boxheader{
+    width: 30%;
+    height: 33.3%;
+    border: 0.5em solid var(--color-verde);
+    float: left; 
+    /* position: absolute;
+    right: 0;
+    top: 33.3%; */
+}
+/*contenido content*/
+.aside-left{
+    width: 20%;
+    height: 100%;
+    border: 0.5em solid var(--color-verde);
+    float: left; 
+}
+.article{
+    width: 50%;
+    height: 100%;
+    border: 0.5em solid var(--color-verde);
+    float: left; 
+}
+.aside-right{
+    width: 30%;
+    height: 100%;
+    border: 0.5em solid var(--color-verde);
+    float: left; 
+}
