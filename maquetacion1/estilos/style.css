@@ -1,0 +1,83 @@
+:root{
+    --color-claro:#CFCBC3;
+    --color-oscuro:#959492;
+}
+*,::before,::after{
+    box-sizing: border-box;
+}
+.main{
+    width: 1000px;
+    height: 1200px;
+    background-color: darksalmon;
+    margin: 1em auto;
+}
+.header{
+    width: 100%;
+    height: 18%;
+    background-color: var(--color-oscuro);
+    border-radius: 1em;
+    /**/
+    padding: 1em;
+    
+}
+.nav{
+    width: 100%;
+    height: 5%;
+    background-color: var(--color-claro);
+    border-radius: 1em;
+    margin-bottom: 1em;
+    margin-top: 1em;
+    /**/
+    padding: 0.5em;
+}
+.content{
+    width: 100%;
+    height: 60%;
+    /* background-color: crimson; */
+    border-radius: 1em;
+    position: relative;
+}
+/*CONTENIDO*/
+.section{
+    width: 70%;
+    height: 98%;
+    background-color: var(--color-claro);
+    border-radius: 1em;
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin: 0.3em; 
+    /* float: left; */
+    padding: 1em;
+}
+.article{
+    width: 90%;
+    height: 70%;
+    margin: 0.7em;
+    background-color: darksalmon;
+    border-radius: 1em;
+    /**/
+    padding: 1em;
+}
+.aside{
+    width: 25%;
+    height: 98%;
+    background-color: var(--color-oscuro);
+    border-radius: 1em;
+    position: absolute;
+    top: 0;
+    right: 0;
+    /* float: left;*/
+    margin: 0.3em; 
+    /**/
+    line-height: 20em;
+    padding: 1em;
+}
+.footer{
+    width: 100%;
+    height: 13%;
+    background-color: var(--color-oscuro);
+    border-radius: 1em;
+    /**/
+    padding: 1em;
+}
