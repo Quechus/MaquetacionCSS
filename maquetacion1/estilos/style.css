@@ -5,6 +5,25 @@
 *,::before,::after{
     box-sizing: border-box;
 }
+/*************************************/
+.titulo {
+    width: 1000px;
+    height: 300px;
+    background-color: yellow;
+    margin: 0 auto;
+    position :relative;
+}
+.attachment1{
+    position: absolute;
+    left:35%;
+    top: 15%;
+}
+.attachment2{
+    position: absolute;
+    left: 40%;
+    top: -5%;
+}
+/************************************/
 .main{
     width: 1000px;
     height: 1200px;
